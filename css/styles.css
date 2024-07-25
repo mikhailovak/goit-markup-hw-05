@@ -712,7 +712,7 @@ margin-bottom: 16px;
     line-height: 117%;
     letter-spacing: 0.04em;
     resize: none;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: rgba(46, 47, 66, 0.4);
     outline: transparent;
@@ -727,9 +727,10 @@ margin-bottom: 24px;
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    /* display: flex;
+    align-items: center; */
+    /* gap: 8px; */
+
     
 }
 
@@ -743,6 +744,7 @@ margin-bottom: 24px;
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 8px;
 }
 
 .modal-check:checked + .modal-check-text .check-span {
